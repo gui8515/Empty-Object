@@ -384,7 +384,7 @@
 
 			<!-- Not including ProjectDir causes includes of "Common.h" from the DarkEdif SDK to fail.
 				 OpenCV's projects are in an addition layer of subfolders. -->
-			<AdditionalIncludeDirectories>$(ProjectDir.TrimEnd('\'));$(SDKRootFolder)\Inc\$(_TargetPlat);$(SDKRootFolder)\Inc\Shared;$(SolutionDir)Temp\$(ExtName);$(SDKRootFolder)\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+			<AdditionalIncludeDirectories>$(ProjectDir.TrimEnd('\'));$(SDKRootFolder)\Inc\$(_TargetPlat);$(SDKRootFolder)\\Inc\Shared;$(SolutionDir)Temp\$(ExtName);$(SDKRootFolder)\Inc;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
 
 			<!-- C++ is king. -->
 			<CompileAs>CompileAsCpp</CompileAs>
