@@ -1,2 +1,6 @@
-temp/
+Temp/
 .vs/
+Debug/
+
+
+*.pdb

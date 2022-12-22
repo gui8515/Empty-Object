@@ -45,14 +45,14 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
-  <Import Project="$(ProjectDir)\Lib\FusionSDK.props" />
-  <Import Project="$(ProjectDir)\Lib\FusionSDK_AfterMSPropSheets.props" />
+  <Import Project="$(ProjectDir)\..\Lib\FusionSDK.props" />
+  <Import Project="$(ProjectDir)\..\Lib\FusionSDK_AfterMSPropSheets.props" />
   <ImportGroup Label="ExtensionSettings" />
   <ImportGroup Label="Shared">
     <Import Project="Empty Object.Shared.vcxitems" Label="Shared" />
   </ImportGroup>
   <ItemGroup>
-    <ClInclude Include="Inc\iOS\MMFiOSMasterHeader.h" />
+    <ClInclude Include="..\Inc\iOS\MMFiOSMasterHeader.h" />
     <ClInclude Condition="exists('$(SolutionDir)Temp\$(ExtName)\Temp_ACECallTable.cpp')" Include="$(SolutionDir)Temp\$(ExtName)\Temp_ACECallTable.cpp" />
   </ItemGroup>
   <ItemGroup>

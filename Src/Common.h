@@ -34,7 +34,7 @@ struct RUNDATA
 //	rCom			rc;				// Common structure for movements & animations
 //	rMvt			rm;				// Movements
 //	Sprite			rs;				// Sprite (displayable objects)
-	AltVals			rv;				// Alterable values
+//	AltVals			rv;				// Alterable values
 
 	// Required
 	Extension * pExtension;
