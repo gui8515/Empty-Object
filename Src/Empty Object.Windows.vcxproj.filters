@@ -7,6 +7,9 @@
     <ClCompile Include="..\Lib\Windows\Edif.Edittime.cpp">
       <Filter>Global to all extensions\Edif</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\source\repos\MMF2Exts\DarkEdif\EmptyObject\Actions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Inc\Windows\MMFMasterHeader.h">

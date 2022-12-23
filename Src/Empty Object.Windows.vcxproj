@@ -86,6 +86,7 @@
     <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\source\repos\MMF2Exts\DarkEdif\EmptyObject\Actions.cpp" />
     <ClCompile Include="..\Lib\Windows\Edif.Edittime.cpp" />
     <ClCompile Include="Edittime.cpp" />
   </ItemGroup>
